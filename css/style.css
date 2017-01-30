@@ -1,0 +1,234 @@
+/* start rd-ca defaults */
+@font-face {
+    font-family: 'Futura-Heavy';
+    src: url(fonts/FuturaLTPro-Heavy.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url(fonts/FuturaLTPro-Bold.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url(fonts/FuturaLTPro-Medium.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Futura-Light';
+    src: url(fonts/FuturaLTPro-Light.otf);
+    font-weight: normal;
+}
+html, body, p, a, li {
+  font-family: "Futura-Medium", Helvetica, Arial, sans-serif;
+  font-size: 1em; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    html, body, p, a, li {
+      font-size: 1em; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    html, body, p, a, li {
+      font-size: 1em; } }
+  @media (min-width: 1200px) {
+    html, body, p, a, li {
+      font-size: 1em; } }
+
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 1.05em; } }
+  @media screen and (min-width: 1200px) and (min-width: 768px) and (max-width: 992px) {
+    p {
+      font-size: 1.05em; } }
+  @media screen and (min-width: 1200px) and (min-width: 992px) and (max-width: 1200px) {
+    p {
+      font-size: 1.05em; } }
+  @media screen and (min-width: 1200px) and (min-width: 1200px) {
+    p {
+      font-size: 1.05em; } }
+
+h1, .h1, h2 {
+  font-family: "Futura-Bold", Helvetica, Arial, sans-serif;
+}
+h3, h4 {
+  font-family: "Futura-Heavy", Helvetica, Arial, sans-serif;
+}
+h5, h6 {
+  font-family: "Futura-Medium", Helvetica, Arial, sans-serif;
+}
+strong {
+  font-family: "Futura-Heavy", Helvetica, Arial, sans-serif; }
+
+
+.font-bold {
+  font-family: "Futura-Bold", Helvetica, Arial, sans-serif !important; }
+.font-heavy {
+  font-family: "Futura-Heavy", Helvetica, Arial, sans-serif !important; }
+.font-medium {
+  font-family: "Futura-Medium", Helvetica, Arial, sans-serif !important; }
+.font-light {
+  font-family: "Futura-Light", Helvetica, Arial, sans-serif !important; }
+
+a {
+  -o-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: #006496;
+ }
+  a:hover {
+    color: #004263; }
+  a:focus {
+    color: #004263; }
+
+.color-yellow {
+  color: #ffdc00; }
+.color-black {
+  color: #000; }
+
+.bg-yellow {
+  background: #ffdc00; }
+.bg-black {
+  background: #000; }
+.bg-blue {
+	background: #026cb6;
+}
+.color-white {
+	color: #fff;
+}
+.mar-btm-30 {
+	margin-bottom: 30px;
+}
+
+/* end rd-ca defaults */
+body {
+	background: #f2f2f2;
+}
+#honorary-chair {
+	background: #fff;
+}
+
+#honorary-chair .row {
+	margin-bottom: 30px;
+}
+#honorary-chair .copy h2 {
+	margin-top: 20px;
+}
+#honorary-chair .copy p {
+	font-size: 1.1em;
+	padding-top: .5em;
+}
+#honorary-chair .caption {
+	position: absolute;
+	height: 56px;
+	overflow-y: hidden;
+	color: #fff;
+	background: rgba(0,0,0,.7);
+    bottom: 0;
+    width: calc(100% - 30px);
+    padding: 1em;
+    text-align: center;
+}
+.women-ref a {
+	padding:1em;
+	border: 1px solid #000;
+	display: block;
+	max-width: 130px;
+	font-family: 'Futura-Bold', sans-serif;
+	text-transform: uppercase;
+}
+.caption h3, .caption h4 {
+	display: inline-block;
+	margin-top: 0;
+}
+.caption h3 {
+	float: left;
+}
+.caption h4 {
+	font-size: .9em;
+	text-align: right;
+	font-family: 'Futura-Light', sans-serif;
+	float: right;
+	line-height: 1.3;
+	max-width: 320px;
+}
+.caption p {
+    color: #ffdc00;
+    padding: 2em 1em;
+    display: inline-block;
+}
+.caption a {
+	color: #ffdc00;
+	padding: .5em 1em;
+	border: 1px solid #ffdc00;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-family: 'Futura-Bold', sans-serif;
+}
+#honorary-chair .row {
+	position: relative;
+}
+#honorary-chair .chair:hover .caption, #honorary-chair .chair:focus .caption {
+	height: 100%!important;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+
+	.caption p {
+		font-size: .95em;
+	}
+
+}
+@media screen and (max-width: 1199px) {
+
+	#honorary-chair .chair {
+		margin-bottom: 3em;
+	}
+	#honorary-chair .row {
+		margin-bottom: 0;
+	}
+
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+
+	#honorary-chair .caption h4 {
+		max-width: 250px;
+	}
+	#honorary-chair .chair .caption.lang {
+		height: 75px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	#honorary-chair .caption h4 {
+	}
+}
+@media screen and (max-width: 600px) {
+
+	#honorary-chair .caption {
+		height: 50px;
+	}
+	#honorary-chair .caption.lang {
+		height: 46px;
+	}
+	.caption p {display: none;}
+
+	.caption a {
+		display: block;
+		padding: .3em;
+	}
+	.caption.lang h3 {
+		margin-bottom: 5px;
+	}
+
+	.caption h3, .caption h4 {
+		float: none;
+		text-align: initial;
+		display: block;
+	}
+}
